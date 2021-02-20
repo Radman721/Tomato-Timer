@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 20vh;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  font-size: 2rem;
+  position: relative;
+  top: 30%;
+  left: 18%;
+}
+
+.timer-type {
+  width: 60%;
+  background-color: #53a7cb;
+  margin: 20px auto 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.break {
+  font-size: 1.2rem;
+  padding: 10px;
+  justify-content: center;
+  border: solid 1px #1e728c;
+  color: white;
+  flex-grow: 1;
+  text-align: center;
+  font-weight: 500;
+}
+
+.break:hover {
+  background-color: #1e728c;
+  cursor: pointer;
+}
+.pomodoro {
+  background-color: #1e728c;
+}
+
+.show-timer {
+  display: flex;
+  justify-content: center;
+  font-size: 7rem;
+  font-weight: 700;
+  margin-top: 60px;
+  color: #222222;
+}
+
+.control-buttons {
+  width: 50%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.con {
+  font-size: 1.2rem;
+  padding: 15px 30px 16px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.start {
+  background-color: #5da423;
+  border: solid 2px #52812d;
+}
+.start:hover {
+  background-color: #52812d;
+}
+.stop {
+  background-color: #c62625;
+  border: solid 2px #a71f1e;
+}
+.stop:hover {
+  background-color: #a71f1e;
+}
+.reset {
+  background-color: #e9e9e9;
+  color: #111;
+  border: solid 2px #e0e0e0;
+}
+.reset:hover {
+  background-color: #e0e0e0;
+}
+
+.demo {
+  width: 70%;
+  font-size: 20px;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+}
